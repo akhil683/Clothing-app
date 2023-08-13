@@ -19,8 +19,13 @@
       justify-content: flex-end;
   
       .nav-link {
+        color: white;
         padding: 10px 15px;
         cursor: pointer;
+
+        &:hover {
+          color: rgb(193, 193, 193);
+        }
       }
     }
   }
