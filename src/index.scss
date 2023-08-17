@@ -1,9 +1,11 @@
 body {
   margin: 0;
+  padding: 20px 40px;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #111;
+  color: white;
 }
 
 code {
@@ -13,7 +15,9 @@ code {
 a {
   text-decoration: none;
   font-size: 1.2rem;
-  color: black;
+}
+h1, span {
+  color: rgb(216, 216, 216);
 }
 * {
   box-sizing: border-box;
